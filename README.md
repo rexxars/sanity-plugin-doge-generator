@@ -1,6 +1,6 @@
 # sanity-plugin-doge-generator
 
-Doge meme generator provided as a Sanity asset source plugin
+Doge meme generator provided as a [Sanity asset source plugin](https://www.sanity.io/docs/custom-asset-sources)
 
 ![Screenshot](assets/screenshot.jpg)
 
