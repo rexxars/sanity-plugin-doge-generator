@@ -1,0 +1,43 @@
+{
+  "name": "sanity-plugin-doge-generator",
+  "version": "1.0.0",
+  "description": "Doge meme generator provided as a Sanity asset source plugin",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "babel -D -d lib src",
+    "test": "eslint .",
+    "prepublishOnly": "npm test && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rexxars/sanity-plugin-doge-generator.git"
+  },
+  "keywords": [
+    "sanity",
+    "asset-source",
+    "meme",
+    "doge"
+  ],
+  "author": "Espen Hovlandsdal <espen@hovlandsdal.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rexxars/sanity-plugin-doge-generator/issues"
+  },
+  "homepage": "https://github.com/rexxars/sanity-plugin-doge-generator#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "@babel/preset-react": "^7.0.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^6.7.2",
+    "eslint-config-prettier": "^6.7.0",
+    "eslint-config-sanity": "^0.146.0",
+    "eslint-plugin-react": "^7.17.0",
+    "prettier": "^1.15.2",
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  }
+}

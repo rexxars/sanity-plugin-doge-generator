@@ -1,0 +1,40 @@
+@import 'part:@sanity/base/theme/variables-style';
+
+.root {
+  padding: 1rem;
+}
+
+.image {
+  max-width: 400px;
+}
+
+.canvas {
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+
+  @media (--max-medium) {
+    flex-direction: column;
+  }
+}
+
+.canvasContainer {
+  flex: 1;
+  max-width: 600px;
+}
+
+.textContainer {
+  flex: 1;
+  padding: 0 var(--medium-padding);
+
+  @media (--max-medium) {
+    padding: 0;
+  }
+}
+
+.buttonGroup {
+  padding-top: var(--medium-padding);
+}

@@ -1,0 +1,13 @@
+{
+  "paths": {
+    "source": "./src",
+    "compiled": "./lib"
+  },
+
+  "parts": [
+    {
+      "implements": "part:@sanity/form-builder/input/image/asset-source",
+      "path": "index.js"
+    }
+  ]
+}
